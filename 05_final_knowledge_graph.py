@@ -12,7 +12,7 @@ Run:
   python 02_rebuild_final_KG_3075.py \
     --papers inputs/01_2000-2025_文献基础库_3075篇.csv \
     --triples inputs/02_2000-2025_图谱三元组_19177条.csv \
-    --compare-edges inputs/04_2000-2025_聚合关系边_198条.csv --strict
+    --compare-edges inputs/KG_2000-2025_Aggregated_Edges_198.csv --strict
 """
 import argparse,csv,json,collections,hashlib,sys
 from pathlib import Path
