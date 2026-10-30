@@ -10,7 +10,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 HERE=Path(__file__).resolve().parent
-DATA=HERE/'inputs'/'Fig4d_2000to2025_证据来源过滤边表.csv'
+DATA=HERE/'inputs'/'Fig4d_2000to2025_Evidence_Filtered_Edges.csv'
 
 def graph_from(counter):
     # 原Fig5算法规则: threshold 20, inadequate candidates then 10 or 5,
