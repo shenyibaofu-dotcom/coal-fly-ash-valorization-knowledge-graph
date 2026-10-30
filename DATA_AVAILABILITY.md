@@ -6,7 +6,9 @@ The seven Python scripts and the code-to-data correspondence index are included 
 
 ## Archival data status
 
-The complete 3,075-paper frozen corpus, full V2/V3 review history, 19,177 paper-linked relation instances, and original dictionary JSON sources are **not** present in this repository. In particular, bibliographic records may contain database-exported titles, abstracts, keywords, DOIs, and other licensed metadata and therefore should not be indiscriminately redistributed.
+The complete 3,075-paper frozen corpus, full V2/V3 review history, 19,177 paper-linked relation instances, and original dictionary JSON sources are **not** present in this repository.
+
+Available derived tables under `inputs/` are: `KG_2000-2025_Aggregated_Edges_198.csv` (198 aggregate relation edges), `Fig4d_2000to2025_Evidence_Filtered_Edges.csv` (182 external association edge candidates), and `Fig3_3075_aggregates_and_proxy_inputs.csv` (20 pathway-level summary rows). These files exclude individual bibliographic abstract records. In particular, bibliographic records may contain database-exported titles, abstracts, keywords, DOIs, and other licensed metadata and therefore should not be indiscriminately redistributed.
 
 The authors' separate archival files include numerical, non-bibliographic derived tables that can be considered for sharing after checking their content. Publication of only aggregated edges or pathway summaries cannot reproduce the full manual screening or entity-extraction history.
 
